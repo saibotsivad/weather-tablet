@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		%sveltekit.head%
+	</head>
+	<style>
+		html, body, div#root {
+			height: 100vh;
+			margin: 0;
+			padding: 0;
+		}
+		body {
+			font-family: "Arial Black", serif;
+			background-color: #000;
+		}
+	</style>
+	<body data-sveltekit-preload-data="hover">
+		<div id="root" style="display: flex;">%sveltekit.body%</div>
+	</body>
+</html>

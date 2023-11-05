@@ -1,0 +1,17 @@
+export const temperatureToColor = temperature => {
+	if (temperature < -10) return '#fa1fc7'
+	if (temperature < 0) return '#e41ffa'
+	if (temperature < 10) return '#aa1ffa'
+	if (temperature < 20) return '#821ffa'
+	if (temperature < 30) return '#561ffa'
+	if (temperature < 40) return '#0004ff'
+	if (temperature < 50) return '#3e41f6'
+	if (temperature < 60) return '#3ec5f6'
+	if (temperature < 70) return '#43ff2e'
+	if (temperature < 80) return '#cbff2e'
+	if (temperature < 90) return '#ffb62e'
+	if (temperature < 100) return '#ff852e'
+	if (temperature < 110) return '#ff4d2e'
+	if (temperature >= 110) return '#e80202'
+	return ''
+}
