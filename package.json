@@ -1,0 +1,24 @@
+{
+  "name": "weather-tablet",
+  "version": "0.0.0",
+  "description": "Simple single page app that shows current and upcoming weather.",
+  "type": "module",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saibotsivad/weather-tablet.git"
+  },
+  "author": {
+    "name": "Tobias Davis",
+    "email": "tobias@davistobias.com",
+    "url": "https://davistobias.com"
+  },
+  "license": "SEE LICENSE IN LICENSE.md",
+  "bugs": {
+    "url": "https://github.com/saibotsivad/weather-tablet/issues"
+  },
+  "homepage": "https://github.com/saibotsivad/weather-tablet",
+  "devDependencies": {
+  }
+}
